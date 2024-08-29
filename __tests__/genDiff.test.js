@@ -1,7 +1,7 @@
 import path from 'path'; 
 import { fileURLToPath } from 'url'; 
 import fs from 'fs'; 
-import genDiff from "../fileParser"; 
+import genDiff from "../fileParser.js";
  
 const __filename = fileURLToPath(import.meta.url); 
 const __dirname = path.dirname(__filename); 
