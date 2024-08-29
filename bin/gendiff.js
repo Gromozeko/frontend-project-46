@@ -1,7 +1,7 @@
 #!/usr/bin/env node 
  
 import { Command } from "commander"; 
-import genDiff from "../fileparser.js";
+import genDiff from "../fileParser.js";
  
 const program = new Command(); 
  
